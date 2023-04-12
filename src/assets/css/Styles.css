@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap');
-.body{
-  font-family: 'Archivo', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.body {
+  font-family: "Archivo", sans-serif;
   font-weight: 500;
 }
 /* ========= Dashboard Layout=============== */
-.layout-container{
+.layout-container {
   min-height: 100vh;
 }
-.ant-menu-title-content{
-font-family: 'Archivo', sans-serif;
+.ant-menu-title-content {
+  font-family: "Archivo", sans-serif;
 }
-.footer-nav{
-text-align: center;
-background:#fff;
-font-family: 'Poppins', sans-serif;
+.footer-nav {
+  text-align: center;
+  background: #fff;
+  font-family: "Poppins", sans-serif;
 }
-.ant-layout-sider{
-  border-right:1px #f2f2f2 solid;
+.ant-layout-sider {
+  border-right: 1px #f2f2f2 solid;
 }

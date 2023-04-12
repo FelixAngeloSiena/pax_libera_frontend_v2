@@ -1,0 +1,190 @@
+.left-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.left-section h1 {
+  margin-bottom: 1rem;
+}
+
+.left-section button {
+  margin: 0 0.5rem;
+}
+
+.right-section {
+  width: 50%;
+  height: 100%;
+ 
+}
+
+.defaultBTN {
+  border-color: #004a87;
+  color: #004a87;
+  font-weight: 500;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.primaryBTN {
+  background-color: #004a87;
+  color: white;
+  border-radius: 5px;
+  height: 35px;
+}
+.title {
+  margin-bottom: 50px;
+}
+.title h1{
+  font-size: 40px;
+}
+.title p{
+  opacity: 70%;
+  margin-top: -10px;
+}
+.loginBTN {
+  margin-bottom: 20px;
+}
+.image1 {
+  height: 25%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+ 
+}
+.companyTitle {
+  width: 50%;
+  height: 25%;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.companyTitle h1{
+  font-size: 70px;
+  font-family: BaskervilleReg;
+  margin-bottom: -8px;
+}
+.companyTitle p{
+  font-size: 20px;
+  font-family: BaskervilleLight;
+  letter-spacing: 8px;
+}
+
+.companyLogo {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.companySocMed {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+
+.companySocMed div {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+
+.companySocMed a {
+  padding-left: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.companySocMed a:hover{
+  color: #037ee4;
+}
+
+/*---------*/
+
+.Logintitle{
+  margin-bottom: 30px;
+}
+
+.Logintitle h1{
+  font-size: 40px;
+}
+
+.signUp{
+  Display: flex;
+  flex-direction: row;
+  margin-top: -10px;
+}
+.signUp a{
+  color: #004A87;
+  padding-left: 5px;
+}
+.signUp a:hover{
+  color: #004A87;
+  padding-left: 5px;
+  font-weight: 600;
+}
+.signUp p{
+  opacity: 70%;
+}
+
+
+.ant-input{
+  border-color: #a5a2a2;
+  font-weight: 500;
+  height: 35px;
+  border-radius: 0;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  margin-bottom: 25px;
+  
+}
+.passwordContainer{
+  Display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.passwordContainer a{
+  color: #000000;
+  opacity: 80%;
+  margin-bottom: 20px;
+}
+.passwordContainer a:hover{
+  color: #000000;
+  opacity: 100%;
+  margin-bottom: 20px;
+}
+.ant-input:focus{
+  box-shadow: none;
+  outline: none;
+  border-color: black;
+}
+.ant-input:hover{
+  border-color: black;
+}
+
+.ant-input::placeholder{
+  color : rgb(0, 0, 0);
+  opacity: 60%;
+ 
+}
+

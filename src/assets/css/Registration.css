@@ -1,0 +1,99 @@
+.registrationBody {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: auto;
+    min-height: 100% !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+.registrationContainer {
+    color: black;
+    display: block;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 50px !important;
+}
+
+h2 {
+    color: dimgray;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#signInSpan {
+    color: #004A87;
+}
+
+#signInSpan:hover{
+    cursor: pointer;
+}
+
+.registrationContainer {
+    color: black;
+    padding-left: 25%;
+    padding-top: 20%;
+
+}
+
+.RegistrationInput {
+    padding-top: 20px;
+}
+
+select {
+    color: black;
+    background: #ffffff;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    width: 70%;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+select:invalid{
+  color: #999999;
+}
+
+input {
+    color: rgba(0, 0, 0, 0.6);
+    background: #ffffff;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    width: 70%;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.button {
+    background-color: white;
+    color: #004A87;
+    width: 70%;
+    font-size: 18px;
+    border: 1px solid #004A87;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 40px;
+    padding:10px;
+}
+
+.button:hover {
+    background-color: #004A87;
+    color: white;
+    width: 70%;
+    border: 1px solid #004A87;
+    border-radius: 5px;
+    cursor: pointer;
+}
