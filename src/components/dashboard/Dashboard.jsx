@@ -4,8 +4,8 @@ import "../../assets/css/Styles.css";
 import Bottomnav from "../../layout/Bottomnav";
 import Sidenav from "../../layout/Sidenav";
 import Topnav from "../../layout/Topnav";
-import LineGraph from "../../resources/graphs/LineGraph";
-import BarGraph from "../../resources/graphs/BarGraph";
+import LineGraphComponent from "../../resources/graphs/LineGraphComponent";
+import BarGraphComponent from "../../resources/graphs/BarGraphComponent";
 import { Layout } from "antd";
 const { Content } = Layout;
 
@@ -28,12 +28,12 @@ const Dashboard = () => {
           <Row gutter={12}>
             <Col span={12}>
               <Card>
-                <LineGraph />
+                <LineGraphComponent />
               </Card>
             </Col>
             <Col span={12}>
               <Card>
-                <BarGraph />
+                <BarGraphComponent />
               </Card>
             </Col>
           </Row>
