@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {Layout, Menu, Image, Row, Col, Divider } from 'antd';
 import { FaFolderOpen, FaHardHat, FaRoad, FaThList, FaSuperscript } from "react-icons/fa"
 import Logo from '../assets/images/logo.webp'
-import { CiShoppingCart, CiAlignBottom } from "react-icons/ci";
+import { CiAlignBottom } from "react-icons/ci";
 import { HiPlus, HiOutlineShoppingCart, HiOutlineShoppingBag, HiOutlineCog6Tooth, HiOutlineDocumentMagnifyingGlass} from "react-icons/hi2";
 
 const { Sider } = Layout;
@@ -27,12 +27,11 @@ const items = [
 const Sidenav = () => {
   return (
     <Sider
-        style={{background:'#fff'}}
-        breakpoint="lg"
-        collapsedWidth="0"
-        width="225"
+      style={{background:'#fff'}}
+      breakpoint="lg"
+      collapsedWidth="0"
+      width="225"
       >
-
       <div style={{paddingBottom:'20px', paddingTop:'20px'}}>
           <Row justify="space-around" align="middle">
               <Image width="50%" src={Logo} preview={false}/>
