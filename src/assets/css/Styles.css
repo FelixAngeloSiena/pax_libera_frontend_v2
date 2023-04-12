@@ -3,36 +3,18 @@
   font-family: "Archivo", sans-serif;
   font-weight: 500;
 }
-
 /* ========= Dashboard Layout=============== */
 .layout-container {
   min-height: 100vh;
 }
-.sidenav-menu {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
+.ant-menu-title-content {
+  font-family: "Archivo", sans-serif;
 }
 .footer-nav {
   text-align: center;
   background: #fff;
   font-family: "Poppins", sans-serif;
 }
-.navbar-settings {
-  font-family: "Poppins", sans-serif;
-}
-
-.main-component-container {
-  padding: 24px;
-  background: #fff;
-}
-
-/* =================== DASHBOARD CSS ===================== */
-
-.line-graph-container {
-  max-width: 50%;
-}
-
-.bar-graph-container {
-  margin-top: 10px;
-  max-width: 80%;
+.ant-layout-sider {
+  border-right: 1px #f2f2f2 solid;
 }
