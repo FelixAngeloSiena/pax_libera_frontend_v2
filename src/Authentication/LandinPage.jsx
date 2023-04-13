@@ -4,6 +4,7 @@ import { Button, Space } from "antd";
 import "antd/dist/reset.css";
 import "../assets/css/Login.css";
 import LoginPage from "./Login";
+import Registration from "../components/registration/Registration";
 
 function LandingPage() {
   const [redirect, setRedirect] = useState(false);
@@ -11,6 +12,7 @@ function LandingPage() {
   function handleLoginClick() {
     setRedirect(true);
   }
+
   if (redirect) {
     return <LoginPage />;
   }
