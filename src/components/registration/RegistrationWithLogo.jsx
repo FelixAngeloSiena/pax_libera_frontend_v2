@@ -1,5 +1,5 @@
-import Logowithbackground from '../../layout/Logowithbackground.js';
-import Registration from './Registration.js'
+import Logowithbackground from '../../layout/Logowithbackground.jsx';
+import Registration from './Registration.jsx'
 
 function RegistrationWithLogo() {
     return (

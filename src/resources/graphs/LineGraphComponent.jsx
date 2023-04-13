@@ -12,7 +12,7 @@ import {
 } from "chart.js";
 import { Line } from "react-chartjs-2";
 
-const LineGraph = () => {
+const LineGraphComponent = () => {
   ChartJS.register(
     CategoryScale,
     LinearScale,
@@ -74,4 +74,4 @@ const LineGraph = () => {
   return <Line options={options} data={data} />;
 };
 
-export default LineGraph;
+export default LineGraphComponent;

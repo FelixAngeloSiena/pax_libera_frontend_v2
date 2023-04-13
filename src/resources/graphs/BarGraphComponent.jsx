@@ -2,7 +2,7 @@ import React from 'react'
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, BarElement, Title, Tooltip, Legend } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 
-const BarGraph = () => {
+const BarGraphComponent = () => {
 
   ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, BarElement, Title, Tooltip, Legend );
   const labels = ['Jan 2023', 'Feb 2023', 'Mar 2023', 'Apr 2023', 'May 2023', 'Jun 2023', 'July 2023'];
@@ -45,4 +45,4 @@ const BarGraph = () => {
   )
 }
 
-export default BarGraph
+export default BarGraphComponent
