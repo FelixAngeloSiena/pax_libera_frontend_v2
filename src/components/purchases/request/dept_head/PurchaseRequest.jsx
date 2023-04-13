@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Space, Table, Tag, Card, Button, Row, Col } from "antd";
+import DatatableComponent from "../../../../resources/DatatableComponent";
 import "../../../../assets/css/Styles.css";
 import Bottomnav from "../../../../layout/Bottomnav";
 import Sidenav from "../../../../layout/Sidenav";
@@ -131,7 +132,7 @@ const PurchaseRequest = () => {
                 <a href="#">Drafts</a>
               </Col>
             </Row>
-            <Table columns={columns} dataSource={data} />
+            <DatatableComponent columns={columns} dataSource={data} />
           </Card>
         </Content>
         <Bottomnav />

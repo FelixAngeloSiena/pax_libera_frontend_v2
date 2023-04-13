@@ -1,8 +1,14 @@
 import React from 'react'
+import { Table } from "antd";
 
-const DatatableComponent = () => {
+const DatatableComponent = ({columns, dataSource}) => {
   return (
-    <div>DatatableComponent</div>
+    <Table
+      bordered
+      columns={columns}
+      dataSource={dataSource}
+
+    />
   )
 }
 
