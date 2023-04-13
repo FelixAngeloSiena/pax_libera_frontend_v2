@@ -13,9 +13,8 @@ function getItem(label, key, icon, children) {
 
 const items = [
   getItem(<a href='/'> Dashboard</a>, '0', <CiAlignBottom />),
-  getItem('Purchases', 'sub1', <HiOutlineShoppingBag />, [
+  getItem('Accounting', 'sub1', <HiOutlineShoppingBag />, [
     getItem('Supplier','sub-item-1', <HiOutlineShoppingCart/>),
-    getItem('Canvas', 'sub-item-2', <HiOutlineDocumentMagnifyingGlass />),
     getItem('Purchase Request', 'sub-item-2', <HiPlus />),
   ]),
 
