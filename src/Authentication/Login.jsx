@@ -1,9 +1,20 @@
+import { useState } from "react";
 import RightSection from "./RightSection";
 import { Button, Space, Input } from "antd";
+import Dashboard from "../components/dashboard/Dashboard";
 import "antd/dist/reset.css";
 import "../assets/css/Login.css";
 
 function Login() {
+  const [redirect, setRedirect] = useState(false);
+
+  function handleDashboardClick() {
+    setRedirect(true);
+  }
+  if (redirect) {
+    return <Dashboard />;
+  }
+
   return (
     <div
       style={{
@@ -34,7 +45,12 @@ function Login() {
               <a>Forgot Password?</a>
             </div>
             <div className="loginBTN">
-              <Button block className="defaultBTN" htmlType="submit">
+              <Button
+                block
+                className="defaultBTN"
+                htmlType="submit"
+                onClick={handleDashboardClick}
+              >
                 Log in
               </Button>
             </div>
